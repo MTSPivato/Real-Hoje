@@ -7,14 +7,6 @@ h3 {
     margin: 15px 10px 0px 10px;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 8%;
-}
-
 .txtCovercao {
     font-size: 35px;
     font-weight: bold;
@@ -27,14 +19,6 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-
-.moeda1 {
-    margin: 5px;
-}
-
-.moeda2 {
-    margin: 5px;
 }
 
 .inputMoeda1 {
@@ -87,11 +71,6 @@ h3 {
 
 .selectMoeda2:focus {
     outline: none;
-}
-
-.moeda {
-    margin: 5px;
-    margin-bottom: -15px;
 }
 
 .msgErro {
