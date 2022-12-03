@@ -3,6 +3,10 @@ h1 {
     font-size: 40px;
 }
 
+h3 {
+    margin: 15px 10px 0px 10px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -14,6 +18,7 @@ h1 {
 .txtCovercao {
     font-size: 35px;
     font-weight: bold;
+    margin-top: 10%;
     color: #fff;
     text-align: center;
 }
@@ -33,13 +38,12 @@ h1 {
 }
 
 .inputMoeda1 {
-    margin: 5px;
-    width: 200px;
+    width: 80px;
     height: 45px;
-    background-color: #303030;
+    background-color: #3b3b3b;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 5px 0px 0px 5px;
     font-size: 25px;
 }
 
@@ -48,24 +52,22 @@ h1 {
 }
 
 .inputMoeda2 {
-    margin: 5px;
-    width: 200px;
+    width: 100px;
     height: 45px;
-    background-color: #303030;
+    background-color: #3b3b3b;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 5px 0px 0px 5px;
     font-size: 25px;
 }
 
 .selectMoeda1 {
-    margin: 5px;
-    width: 205px;
-    height: 45px;
+    width: 180px;
+    height: 47px;
     background-color: #303030;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 0px 5px 5px 0px;
     font-size: 22px;
 }
 
@@ -74,15 +76,13 @@ h1 {
 }
 
 .selectMoeda2 {
-    margin: 5px;
-    width: 205px;
-    height: 45px;
+    width: 180px;
+    height: 47px;
     background-color: #303030;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 0px 5px 5px 0px;
     font-size: 22px;
-    border: none;
 }
 
 .selectMoeda2:focus {
@@ -95,6 +95,10 @@ h1 {
 }
 
 .msgErro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
     color: rgb(235, 91, 91);
     font-size: 17px;
 }
