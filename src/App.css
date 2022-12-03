@@ -1,0 +1,106 @@
+h1 {
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.txtCovercao {
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.grupoMoedas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.moeda1 {
+    margin: 5px;
+}
+
+.moeda2 {
+    margin: 5px;
+}
+
+.inputMoeda1 {
+    margin: 5px;
+    width: 200px;
+    height: 45px;
+    background-color: #303030;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.inputMoeda1:focus {
+    outline: none;
+}
+
+.inputMoeda2 {
+    margin: 5px;
+    width: 200px;
+    height: 45px;
+    background-color: #303030;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.selectMoeda1 {
+    margin: 5px;
+    width: 205px;
+    height: 45px;
+    background-color: #303030;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.selectMoeda1:focus {
+    outline: none;
+}
+
+.selectMoeda2 {
+    margin: 5px;
+    width: 205px;
+    height: 45px;
+    background-color: #303030;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    border: none;
+}
+
+.selectMoeda2:focus {
+    outline: none;
+}
+
+.moeda {
+    margin: 5px;
+    margin-bottom: -15px;
+}
+
+.msgErro {
+    color: rgb(235, 91, 91);
+    font-size: 17px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
